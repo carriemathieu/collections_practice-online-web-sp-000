@@ -62,7 +62,7 @@ def add_s(string)
     if count != 1
       plural << string + "s"
       count += 1
-    else
+    elsif count == 1
       plural << string
     end
   end
