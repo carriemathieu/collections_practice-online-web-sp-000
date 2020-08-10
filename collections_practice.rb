@@ -60,10 +60,10 @@ def add_s(string)
   count = 0
   string.each do |plural|
     if count != 1
-      plural << string + "s"
+      plurals << plural + "s"
       count += 1
     elsif count == 1
-      plural << string
+      plurals << plural
     end
   end
   plurals
