@@ -64,4 +64,5 @@ def add_s(string)
       plural << string
     end
   end
+  plurals
 end 
