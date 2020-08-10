@@ -56,10 +56,10 @@ end
 
 # returns array where "s" is added to end of each word except 2nd element
 def add_s(string)
-  plural = []
+  plurals = []
   string.each do |plural|
     if plural != 1
-      plural = string + "s"
+      plural << string + "s"
     else
       plural = string
     end
