@@ -60,7 +60,7 @@ def add_s(string)
     if plural = string[1] 
       string = plural
     else
-      string = plural + s
+      string = plural + "s"
     end
   end
 end 
