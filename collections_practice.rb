@@ -58,7 +58,7 @@ end
 def add_s(string)
   string.collect do |plural|
     if plural[1] 
-      plural = string
+      plural = string[1]
     else
       plural = string + "s"
     end
