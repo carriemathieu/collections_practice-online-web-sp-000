@@ -61,6 +61,7 @@ def add_s(string)
   string.each do |plural|
     if count != 1
       plural << string + "s"
+      count += 1
     else
       plural << string
     end
