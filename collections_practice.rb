@@ -58,12 +58,14 @@ end
 def add_s(string)
   plurals = []
   count = 0
+  
   string.each do |word|
     if count != 1
       plurals << word + "s"
       count += 1
     elsif count == 1
       plurals << plural
+      count +=1
     end
     plurals
   end
