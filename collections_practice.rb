@@ -64,7 +64,7 @@ def add_s(string)
       plurals << word + "s"
       count += 1
     elsif count == 1
-      plurals << plural
+      plurals << word
       count +=1
     end
     plurals
